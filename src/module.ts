@@ -1,5 +1,5 @@
 import { addServerPlugin, createResolver, defineNuxtModule } from "@nuxt/kit"
-import legacy, { type Options as LegacyOptions } from "@vitejs/plugin-legacy"
+import legacy, { type Options as LegacyOptions } from "vite-plugin-legacy-swc"
 
 export default defineNuxtModule<LegacyOptions>({
   meta: {
