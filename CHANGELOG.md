@@ -1,4 +1,4 @@
-# nuxt-vite-legacy
+# nuxt-vite-legacy-swc
 
 ## 1.3.1
 

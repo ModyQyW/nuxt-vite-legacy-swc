@@ -11,7 +11,7 @@ describe("ssr", async () => {
   it("adds nomodule legacy chunk", async () => {
     const html = await $fetch("/")
     expect(html).toMatch(
-      // Different versions of Nuxt / @vitejs/plugin-legacy emit different file names.
+      // Different versions of Nuxt / vite-plugin-legacy-swc emit different file names.
       /<script src="\/_nuxt\/\w+-legacy(\.\w+)?\.js" nomodule crossorigin>/
     )
   })
